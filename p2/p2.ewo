@@ -1,0 +1,42 @@
+
+[SCADE\Editor\Shortcut]
+
+"groupNb"="0" 
+
+[SCADE\Editor\Tool]
+
+"UsePolyline"="false" 
+"TransitionKind"="strong" 
+
+[SCADE\Diff\Tool]
+
+"LastProject1"="C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p1\\p1.etp" 
+"LastProject2"="C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p2\\p2.etp" 
+
+[SCADE\Generator\Tool]
+
+"PragmaTarget"="C" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Code Generator]
+
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p2\\p2.etp"="KCG" 
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p1\\p1.etp"="KCG" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Metrics and Rules Checker]
+
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p2\\p2.etp"="MetricRule" 
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p1\\p1.etp"="MetricRule" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Reporter]
+
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p2\\p2.etp"="HTML" 
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p1\\p1.etp"="HTML" 
+
+[STUDIO\TOOLS\CONFIGURATIONS\Timing and Stack Analysis Tools]
+
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p2\\p2.etp"="KCG" 
+"C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p1\\p1.etp"="KCG" 
+
+[STUDIO\Workspace]
+
+"ActiveProject"="C:\\workspace\\work\\SCADE Suite\\05_Diff\\Fehler\\195005\\p2\\p2.etp" 
