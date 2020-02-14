@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<File xmlns="http://www.esterel-technologies.com/ns/scade/6" xmlns:ed="http://www.esterel-technologies.com/ns/scade/pragmas/editor/7" xmlns:kcg="http://www.esterel-technologies.com/ns/scade/pragmas/codegen/3">
+	<declarations>
+		<Constant name="Constant1">
+			<type>
+				<NamedType>
+					<type>
+						<TypeRef name="int8"/>
+					</type>
+				</NamedType>
+			</type>
+			<value>
+				<ConstValue value="2"/>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/2e/23B7/76DC/5e15d855240f"/>
+			</pragmas>
+		</Constant>
+		<Constant name="Constant2">
+			<type>
+				<Table>
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="int32"/>
+							</type>
+						</NamedType>
+					</type>
+					<size>
+						<ConstValue value="4"/>
+					</size>
+				</Table>
+			</type>
+			<value>
+				<!-- [11, 22, 33, 44] -->
+				<DataArrayOp>
+					<data>
+						<ConstValue value="11"/>
+						<ConstValue value="22"/>
+						<ConstValue value="33"/>
+						<ConstValue value="44"/>
+					</data>
+				</DataArrayOp>
+			</value>
+			<pragmas>
+				<ed:Constant oid="!ed/48/3D41/8BC8/5e15f7f15be0"/>
+			</pragmas>
+		</Constant>
+	</declarations>
+</File>
