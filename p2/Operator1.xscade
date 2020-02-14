@@ -31,18 +31,6 @@
 				</Variable>
 			</outputs>
 			<locals>
-				<Variable name="_L1">
-					<type>
-						<NamedType>
-							<type>
-								<TypeRef name="int8"/>
-							</type>
-						</NamedType>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/9a/6841/B2B8/5e2818eb640e"/>
-					</pragmas>
-				</Variable>
 				<Variable name="_L4">
 					<type>
 						<NamedType>
@@ -81,32 +69,6 @@
 				</Variable>
 			</locals>
 			<data>
-				<!-- _L1 = _null + _null; -->
-				<Equation>
-					<lefts>
-						<VariableRef name="_L1"/>
-					</lefts>
-					<right>
-						<!-- _null + _null -->
-						<NAryOp name="1" operator="+">
-							<operands>
-								<IdExpression>
-									<path>
-										<NullRef/>
-									</path>
-								</IdExpression>
-								<IdExpression>
-									<path>
-										<NullRef/>
-									</path>
-								</IdExpression>
-							</operands>
-						</NAryOp>
-					</right>
-					<pragmas>
-						<ed:Equation oid="!ed/99/6841/B2B8/5e2818eb5703"/>
-					</pragmas>
-				</Equation>
 				<!-- Output1 = _L4; -->
 				<Equation>
 					<lefts>
@@ -183,14 +145,6 @@
 					<diagrams>
 						<NetDiagram name="Operator1_1" landscape="true" format="A4 (210 297)" oid="!ed/1f7/6B19/3C9C/5ddd40833a2b">
 							<presentationElements>
-								<EquationGE presentable="!ed/99/6841/B2B8/5e2818eb5703">
-									<position>
-										<Point x="6244" y="1976"/>
-									</position>
-									<size>
-										<Size width="1023" height="652"/>
-									</size>
-								</EquationGE>
 								<EquationGE kind="OBJ_OUTPUT" presentable="!ed/148/58BE/98D0/5e2acaf22fc9">
 									<position>
 										<Point x="13944" y="7303"/>
